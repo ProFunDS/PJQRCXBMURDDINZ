@@ -18,7 +18,7 @@ for guy in guys:
         
         user = Axies(guy.rental_ronin)
         number_of_axies = user.number_of_axies()
-        if number_of_axies in range(0, 10): requirements = 240
+        if number_of_axies in range(0, 10): requirements = 80
         elif number_of_axies in range(10, 20): requirements = 160
         elif number_of_axies >= 20: requirements = 240
 
